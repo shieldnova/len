@@ -7,7 +7,7 @@ const Schedule = () => {
     Weekly Schedule — SSC 11th & 12th
   </h2>
   <p className="text-gray-600 text-center max-w-2xl mb-12">
-    Compare weekly plans for both tracks side by side.
+    weekly plans for both tracks.
   </p>
 
   <div className="w-full max-w-6xl overflow-x-auto bg-white/70 backdrop-blur-md rounded-2xl shadow-lg border border-gray-200">
