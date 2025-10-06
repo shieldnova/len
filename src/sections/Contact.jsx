@@ -9,7 +9,7 @@ const Contact = () => {
             <p className="mt-2 max-w-3xl mx-auto text-gray-500 text-center">
               Fill out the form below and our team will reach out with your access details.
             </p>
-            <div className="min-h-screen bg-white flex items-center justify-center px-6 py-16">
+    <div className="bg-white flex items-center justify-center px-6 py-16">
   <div className="max-w-3xl w-full bg-white shadow-xl rounded-3xl border border-gray-200 p-8 md:p-12">
     
     <div className="text-center mb-10">
