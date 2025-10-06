@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='relative py-30 px-6'>
+    <section className='relative py-10 px-6'>
             <h2 className="text-center text-4xl font-extrabold bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">
               Contact Us
             </h2>

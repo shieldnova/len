@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <div>
   
-<div className="min-h-screen bg-pink-50 flex items-center justify-center px-6 py-20">
+<div className="bg-pink-50 flex items-center justify-center px-6 py-20">
   <div className="max-w-3xl w-full">
   
     <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">

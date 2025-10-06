@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-6 py-16">
+    <div className="flex items-center justify-center bg-gray-50 px-6 py-16">
       <div className="max-w-6xl w-full">
 
         <div className="text-center mb-12">

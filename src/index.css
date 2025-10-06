@@ -8,11 +8,13 @@
 }
 
 :root{
- --color-bg:hsl(0 0% 0%);
- --color-text:hsl(0 0% 95%);
+  --color-bg:hsl(0 0% 100%);
+  --color-text:hsl(0 0% 5%);
+
 }
 
 .light{
-  --color-bg:hsl(0 0% 100%);
-  --color-text:hsl(0 0% 5%);
+ 
+ --color-bg:hsl(0 0% 0%);
+ --color-text:hsl(0 0% 95%);
 }
