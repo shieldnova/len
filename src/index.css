@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@theme{
+  --color-brandColorOne:#b40184;
+  --color-brandColorTwo:#D715A8;
+  --color-brandColorThree:#FA28CB;
+  --color-brandGradient:gradient-to-br from-black to-brandColorOne;
+  --font-sans: "Poppins", sans-serif;
+}
+
+:root{
+ --color-bg:hsl(0 0% 0%);
+ --color-text:hsl(0 0% 95%);
+}
+
+.light{
+  --color-bg:hsl(0 0% 100%);
+  --color-text:hsl(0 0% 5%);
+}
