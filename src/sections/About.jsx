@@ -1,4 +1,5 @@
 import React from 'react'
+import { nit,concept,edutainment,lenka,stat } from '../assets/images'
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
             <div className="grid gap-8 md:grid-cols-3 mt-12">
           <div className="text-center transform transition duration-500 hover:scale-110 hover:translate-y-2">
             <img
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={lenka}
               className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-brandColorTwo shadow-lg"
               alt="Arjun Mehta"
             />
@@ -23,7 +24,7 @@ const About = () => {
 
           <div className="text-center transform transition duration-500 hover:scale-110 hover:translate-y-2">
             <img
-              src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={stat}
               className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-brandColorTwo shadow-lg"
               alt="Neha Sharma"
             />
@@ -42,7 +43,7 @@ const About = () => {
           </div>
           <div className="text-center transform transition duration-500 hover:scale-110 hover:translate-y-2">
             <img
-              src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={nit}
               className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-brandColorTwo shadow-lg"
               alt="Ravi Singh"
             />
@@ -51,7 +52,7 @@ const About = () => {
           </div>
           <div className="text-center transform transition duration-500 hover:scale-110 hover:translate-y-2">
             <img
-              src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={concept}
               className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-brandColorTwo shadow-lg"
               alt="Ravi Singh"
             />
@@ -60,7 +61,7 @@ const About = () => {
           </div>
           <div className="text-center transform transition duration-500 hover:scale-110 hover:translate-y-2">
             <img
-              src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={edutainment}
               className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-brandColorTwo shadow-lg"
               alt="Ravi Singh"
             />
