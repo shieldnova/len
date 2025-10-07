@@ -1,5 +1,5 @@
 import waves from './wave.svg';
-import nit from './nit.png';
+import nit from './Nit.png';
 import concept from './concept.png';
 import edutainment from './edutainment.png';
 import lenka from './Lenka.png';
