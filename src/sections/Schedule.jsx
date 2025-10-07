@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { scheduleData } from '../components/constants';
-
+import { scheduleData } from '../components/constants'; // Ensure this import is correct
 
 const Schedule = () => {
   const [activeTab, setActiveTab] = useState('SSC 11th');
@@ -24,7 +23,7 @@ const Schedule = () => {
       id="schedule"
       className="min-h-screen bg-white flex flex-col items-center px-6 py-20"
     >
-      {/* Section Title */}
+      {/* Title */}
       <h2
         className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent"
         data-aos="fade-up"
@@ -67,17 +66,16 @@ const Schedule = () => {
       <div className="w-full max-w-3xl space-y-3">
         {currentSchedule.map((item, index) => {
           const isOpen = openAccordion === index;
+
           return (
             <div
               key={index}
               className="border border-gray-200 rounded-xl overflow-hidden shadow-md"
-              data-aos="fade-up"
-              data-aos-delay={index * 50 + 200}
             >
               {/* Accordion Header */}
               <button
                 onClick={() => toggleAccordion(index)}
-                className={`w-full flex justify-between items-center p-4 text-left transition-all duration-300 ${
+                className={`w-full flex justify-between items-center p-4 text-left transition-colors ${
                   isOpen
                     ? 'bg-brandColorOne text-white hover:bg-brandColorOne/90'
                     : 'bg-white hover:bg-gray-50 text-gray-800'
@@ -99,7 +97,7 @@ const Schedule = () => {
                 </div>
                 <svg
                   className={`w-5 h-5 transition-transform duration-300 ${
-                    isOpen ? 'transform rotate-180' : ''
+                    isOpen ? 'rotate-180' : ''
                   }`}
                   fill="none"
                   stroke="currentColor"
@@ -114,15 +112,9 @@ const Schedule = () => {
                 </svg>
               </button>
 
-              {/* Accordion Body */}
-              <div
-                className={`grid transition-all duration-500 ease-in-out ${
-                  isOpen
-                    ? 'grid-rows-[1fr] opacity-100 p-4'
-                    : 'grid-rows-[0fr] opacity-0 p-0'
-                }`}
-              >
-                <div className="overflow-hidden text-gray-700">
+              {/* Accordion Body (no animation) */}
+              {isOpen && (
+                <div className="p-4 bg-white text-gray-700">
                   <p className="border-l-4 border-brandColorTwo pl-3 font-bold">
                     Topic Description
                   </p>
@@ -132,14 +124,12 @@ const Schedule = () => {
                       Wednesday, Friday | 4:00 PM - 5:30 PM
                     </li>
                     <li>
-                      <span className="font-semibold">
-                        Homework/Assignment:
-                      </span>{' '}
+                      <span className="font-semibold">Homework/Assignment:</span>{' '}
                       Problem Set 3 due Sunday night.
                     </li>
                   </ul>
                 </div>
-              </div>
+              )}
             </div>
           );
         })}
