@@ -3,7 +3,7 @@ import { icon1,icon2,icon3 } from '../assets/icons'
 
 const classes = () => {
   return (
-    <section className="bg-[url('/bgDoodle.png')] bg-cover py-20 px-6 flex flex-col items-center">
+    <section id="classes" className="bg-[url('/bgDoodle.png')] bg-cover bg-fixed py-20 px-6 flex flex-col items-center">
   <div className="max-w-6xl w-full text-center">
     <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">
       Lenka Academy — Quick Access

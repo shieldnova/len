@@ -4,6 +4,7 @@ import concept from './concept.png';
 import edutainment from './edutainment.png';
 import lenka from './Lenka.png';
 import stat from './stat.png';
+import lenkacard from './lenka-card.png'
 export{
-    waves,nit,concept,edutainment,lenka,stat
+    waves,nit,concept,edutainment,lenka,stat,lenkacard
 }

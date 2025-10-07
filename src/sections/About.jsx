@@ -3,7 +3,7 @@ import { nit,concept,edutainment,lenka,stat } from '../assets/images'
 
 const About = () => {
   return (
-    <section className='relative py-20 px-6'>
+    <section id="about" className='relative py-20 px-6'>
           <div className="text-center mb-12">
             <h2 className="text-4xl font-extrabold bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">
               Who is Lenka Sir?

@@ -67,7 +67,7 @@ const Schedule = () => {
   const currentSchedule = scheduleData[activeTab];
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center px-6 py-20">
+    <section id="schedule" className="min-h-screen bg-white flex flex-col items-center px-6 py-20">
       <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">
         Weekly Schedule
       </h2>
@@ -156,7 +156,7 @@ const Schedule = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

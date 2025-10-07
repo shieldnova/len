@@ -3,7 +3,7 @@ import { whatsapp } from '../assets/icons'
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-gray-200 backdrop-blur-sm py-10 px-6">
+    <footer id="footer" className="bg-white border-t border-gray-200 backdrop-blur-sm py-10 px-6">
       <div className="max-w-5xl mx-auto text-center space-y-6">
         
         {/* Brand Name */}
