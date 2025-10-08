@@ -1,20 +1,51 @@
 @import 'tailwindcss';
-@theme{
-  --color-brandColorOne:#b40184;
-  --color-brandColorTwo:#D715A8;
-  --color-brandColorThree:#FA28CB;
-  --color-brandGradient:gradient-to-br from-black to-brandColorOne;
-  --font-sans: "Poppins", sans-serif;
+
+
+:root {
+  --color-brandColorOne: #b40184;
+  --color-brandColorTwo: #D715A8;
+  --color-brandColorThree: #FA28CB;
+  --color-fontSans: "Poppins", sans-serif;
+  --color-bg: hsl(0 0% 100%);
+  --color-text: hsl(0 0% 5%);
 }
 
-:root{
-  --color-bg:hsl(0 0% 100%);
-  --color-text:hsl(0 0% 5%);
-
+.light {
+  --color-bg: hsl(0 0% 0%);
+  --color-text: hsl(0 0% 95%);
 }
 
-.light{
- 
- --color-bg:hsl(0 0% 0%);
- --color-text:hsl(0 0% 95%);
+
+@keyframes pulse-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+
+@keyframes fade-in-bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(30%) scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-5%) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-pulse-bounce {
+  animation: pulse-bounce 1s ease-in-out infinite;
+  animation-delay: 5s;
+}
+
+.animate-fade-in-bounce {
+  animation: fade-in-bounce 1s ease-out;
 }
