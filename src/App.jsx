@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, About, Pricing, Schedule, Classes, Contact, Faq, Footer } from './sections'
+import { Hero, About, Pricing, Schedule, Classes, Contact, Faq, Footer ,Testimonial} from './sections'
 import FloatingWhatsApp from './components/FloatingWhatsApp' // 👈 import it
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
       <Schedule />
       <Classes />
       <Contact />
+      <Testimonial/>
       <Faq />
       <Footer />
 
