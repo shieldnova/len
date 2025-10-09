@@ -19,7 +19,7 @@ const FloatingWhatsApp = () => {
       },
       {
         root: null,
-        threshold: 0.1, // adjust as needed
+        threshold: 0.1, 
       }
     );
 

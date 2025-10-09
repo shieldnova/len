@@ -1,7 +1,8 @@
-import { nit, concept, edutainment, lenka, stat, akash } from '../assets/images';
+import { nit, concept, edutainment, lenka, stat, akash,viral } from '../assets/images';
+import { icon1, icon2, icon3 } from '../assets/icons';
 export const aboutCards = [
     {
-      img: lenka,
+      img: viral,
       title: 'Viral Educator',
       desc: 'Makes tough JEE & Board topics easy and memorable.',
     },
@@ -84,4 +85,187 @@ export const aboutCards = [
       { dateRange: 'Jan 19–24', topic: 'Revision' },
     ],
   };
-  
+  export const plans = [
+  {
+    id: 1,
+    title: 'Zoom Blitz Live',
+    price: '₹1,999',
+    priceSuffix: '/ per month',
+    description: 'Be there, ask live, learn fast',
+    enrollLink: 'https://live.lenkaacademy.com/courses/716066',
+    features: [
+      'High-energy live sessions on Zoom',
+      'Recording after class',
+      'Weekly Tests + DPP',
+      'Weekly schedule & guidance',
+    ],
+  },
+  {
+    id: 2,
+    title: 'App Stream Live',
+    price: '₹249',
+    priceSuffix: '/ per month',
+    description: 'Learn live inside the Lenka app.',
+    enrollLink: 'https://live.lenkaacademy.com/courses/716050',
+    features: [
+      'Live classes in the app',
+      'In-app recordings & notes',
+      'Weekly Tests + DPP',
+      'Instant notifications',
+    ],
+    badge: 'Most Popular',
+  },
+  {
+    id: 3,
+    title: 'Concept Vault (Recorded)',
+    price: '₹99',
+    priceSuffix: '/ per month',
+    description: 'Perfect for revision & fast catch-up',
+    enrollLink: 'https://live.lenkaacademy.com/courses/716074',
+    features: [
+      'Structured chapter playlists',
+      'Weekly Tests + DPP mapped to videos',
+      'Regular content updates',
+      'Perfect for revision & fast catch-up',
+    ],
+  },
+];
+
+export const faqs = [
+  {
+    question: 'Are these classes 100% online?',
+    answer: 'Yes—Zoom Live, App Live, or Recorded videos. Pick what suits you.',
+  },
+  {
+    question: 'Do all plans include recordings, tests & DPP?',
+    answer:
+      'Yes. Every plan includes recordings, weekly tests, and DPP. Access duration depends on the plan/platform policy.',
+  },
+  {
+    question: 'How do I get started?',
+    answer:
+      'Tap any <span class="font-medium text-gray-800">Enroll</span> or <span class="font-medium text-gray-800">Join Now</span> button and we’ll help you on WhatsApp instantly.',
+    isHtml: true, 
+  },
+];
+
+export const classesData = [
+  {
+    title: 'Class-11 & 12',
+    subtitle: 'Select your class to begin',
+    links: [
+      {
+        href: 'https://live.lenkaacademy.com/courses/716066',
+        label: 'Zoom Live',
+        bgColor: 'bg-blue-500',
+        hoverColor: 'hover:bg-blue-600',
+        icon: icon1,
+        alt: 'Zoom Icon',
+      },
+      {
+        href: 'https://live.lenkaacademy.com/courses/716050',
+        label: 'App Live',
+        bgColor: 'bg-[#3DDC84]',
+        hoverColor: 'hover:bg-pink-600',
+        icon: icon3,
+        alt: 'App Icon',
+      },
+      {
+        href: 'https://live.lenkaacademy.com/courses/716074',
+        label: 'Recordings',
+        bgColor: 'bg-[#FF0000]',
+        hoverColor: 'hover:bg-red-600',
+        icon: icon2,
+        alt: 'Record Icon',
+      },
+    ],
+  },
+  {
+    title: 'Class-10',
+    subtitle: 'Select your class to begin',
+    links: [
+      {
+        href: 'https://live.lenkaacademy.com/courses/716066',
+        label: 'Zoom Live',
+        bgColor: 'bg-blue-500',
+        hoverColor: 'hover:bg-blue-600',
+        icon: icon1,
+        alt: 'Zoom Icon',
+      },
+      {
+        href: 'https://live.lenkaacademy.com/courses/716050',
+        label: 'App Live',
+        bgColor: 'bg-[#3DDC84]',
+        hoverColor: 'hover:bg-pink-600',
+        icon: icon3,
+        alt: 'App Icon',
+      },
+      {
+        href: 'https://live.lenkaacademy.com/courses/716074',
+        label: 'Recordings',
+        bgColor: 'bg-[#FF0000]',
+        hoverColor: 'hover:bg-red-600',
+        icon: icon2,
+        alt: 'Record Icon',
+      },
+    ],
+  },
+  {
+    title: 'Class-9',
+    subtitle: 'Select your class to begin',
+    links: [
+      {
+        href: 'https://live.lenkaacademy.com/courses/716066',
+        label: 'Zoom Live',
+        bgColor: 'bg-blue-500',
+        hoverColor: 'hover:bg-blue-600',
+        icon: icon1,
+        alt: 'Zoom Icon',
+      },
+      {
+        href: 'https://live.lenkaacademy.com/courses/716050',
+        label: 'App Live',
+        bgColor: 'bg-[#3DDC84]',
+        hoverColor: 'hover:bg-pink-600',
+        icon: icon3,
+        alt: 'App Icon',
+      },
+      {
+        href: 'https://live.lenkaacademy.com/courses/716074',
+        label: 'Recordings',
+        bgColor: 'bg-[#FF0000]',
+        hoverColor: 'hover:bg-red-600',
+        icon: icon2,
+        alt: 'Record Icon',
+      },
+    ],
+  },
+];
+export const mathSymbols = ["+", "-", "%", "√", "×","="];
+
+export const testimonials = [
+  {
+    name: "Student-1",
+    role: "Class 10 Student",
+    feedback:
+      "The review will appear here, highlighting the student's or parent's experience with our program.",
+    avatar: "https://i.pravatar.cc/100?img=12",
+    rating: 5,
+  },
+  {
+    name: "Student-2",
+    role: "Parent of Class 11 Student",
+    feedback:
+      "The review will appear here, highlighting the student's or parent's experience with our program.",
+    avatar: "https://i.pravatar.cc/100?img=31",
+    rating: 4,
+  },
+  {
+    name: "Student-3",
+    role: "JEE Dropper",
+    feedback:
+      "The review will appear here, highlighting the student's or parent's experience with our program.",
+    avatar: "https://i.pravatar.cc/100?img=25",
+    rating: 5,
+  },
+];

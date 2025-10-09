@@ -1,6 +1,6 @@
 import React from 'react'
 import { Hero, About, Pricing, Schedule, Classes, Contact, Faq, Footer ,Testimonial} from './sections'
-import FloatingWhatsApp from './components/FloatingWhatsApp' // 👈 import it
+import FloatingWhatsApp from './components/FloatingWhatsApp'
 
 const App = () => {
   return (
@@ -14,8 +14,6 @@ const App = () => {
       <Testimonial/>
       <Faq />
       <Footer />
-
-      {/* ✅ Floating WhatsApp button */}
       <FloatingWhatsApp phone="919812345678" message="Hi! I'm interested in joining your classes." />
     </section>
   )

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { scheduleData } from '../components/constants'; // Ensure this import is correct
+import { scheduleData } from '../components/constants';
 
 const Schedule = () => {
   const [activeTab, setActiveTab] = useState('SSC 11th');
@@ -72,7 +72,7 @@ const Schedule = () => {
               key={index}
               className="border border-gray-200 rounded-xl overflow-hidden shadow-md"
             >
-              {/* Accordion Header */}
+              {/* Accordion Header With Toggling */}
               <button
                 onClick={() => toggleAccordion(index)}
                 className={`w-full flex justify-between items-center p-4 text-left transition-colors ${
@@ -112,7 +112,7 @@ const Schedule = () => {
                 </svg>
               </button>
 
-              {/* Accordion Body (no animation) */}
+              {/* Accordion Body Without Animation */}
               {isOpen && (
                 <div className="p-4 bg-white text-gray-700">
                   <p className="border-l-4 border-brandColorTwo pl-3 font-bold">

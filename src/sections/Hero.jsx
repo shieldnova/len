@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Nav from "../components/Nav";
 import { lenkacard } from "../assets/images";
-import { whatsapp } from "../assets/icons"; // Only if you want to include the icon later
+import { whatsapp } from "../assets/icons"; 
 
 const Hero = () => {
   const [showTitle, setShowTitle] = useState(false);

@@ -67,7 +67,7 @@
   background-size: 200% 200%;
   animation: gradientShift 20s linear infinite;
 }
-/* Container for math symbols */
+
 .math-bg {
   position: absolute;
   top: 0;
@@ -79,7 +79,6 @@
   pointer-events: none;
 }
 
-/* Common style for each symbol */
 .math-symbol {
   position: absolute;
   color: rgba(255, 255, 255, 0.1);

@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="flex items-center justify-center gap-2 pt-2 text-gray-400 text-sm">
           <span>Developed by Team</span>
           <img
-            src={sn}// Demo logo
+            src={sn}
             alt="ShieldNova Logo"
             className="w-5 h-7 rounded-full"
           />

@@ -53,7 +53,7 @@ Please guide me on the next steps.`;
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-900">Apply / Request Demo</h2>
             <p className="text-gray-600 mt-2">
-              We’ll contact you from <span className="font-semibold bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">+91 6303 616 940</span> with access details.
+              We’ll contact you from <span className="font-semibold bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">+91 6303616940</span> with access details.
             </p>
           </div>
 

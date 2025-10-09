@@ -1,35 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-const mathSymbols = ["+", "-", "%", "√", "×","="];
-
-const testimonials = [
-  {
-    name: "Student-1",
-    role: "Class 10 Student",
-    feedback:
-      "The review will appear here, highlighting the student's or parent's experience with our program.",
-    avatar: "https://i.pravatar.cc/100?img=12",
-    rating: 5,
-  },
-  {
-    name: "Student-2",
-    role: "Parent of Class 11 Student",
-    feedback:
-      "The review will appear here, highlighting the student's or parent's experience with our program.",
-    avatar: "https://i.pravatar.cc/100?img=31",
-    rating: 4,
-  },
-  {
-    name: "Student-3",
-    role: "JEE Dropper",
-    feedback:
-      "The review will appear here, highlighting the student's or parent's experience with our program.",
-    avatar: "https://i.pravatar.cc/100?img=25",
-    rating: 5,
-  },
-];
+import { testimonials,mathSymbols } from "../components/constants";
 
 const Stars = ({ count }) => {
   const totalStars = 5;

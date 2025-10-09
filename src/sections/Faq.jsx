@@ -1,6 +1,54 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { faqs } from '../components/constants';
+
+const AccordionItem = ({ question, answer, isHtml, delay }) => {
+  const [open, setOpen] = useState(false);
+  const contentRef = useRef(null);
+
+  const toggle = () => setOpen((prev) => !prev);
+
+  return (
+    <div
+      className="group bg-white/30 backdrop-blur-md border border-white/40 rounded-2xl shadow-sm p-6 cursor-pointer hover:bg-white/50 transition-all duration-300"
+      data-aos="fade-up"
+      data-aos-delay={delay}
+    >
+      {/* Summary */}
+      <div
+        onClick={toggle}
+        className="flex justify-between items-center font-semibold text-gray-800 text-lg select-none"
+      >
+        <span>{question}</span>
+        <span
+          className={`ml-2 transform transition-transform duration-300 text-brandColorTwo ${
+            open ? 'rotate-180' : ''
+          }`}
+        >
+          ▼
+        </span>
+      </div>
+
+      {/* Answer */}
+      <div
+        ref={contentRef}
+        className="transition-all duration-500 overflow-hidden"
+        style={{
+          maxHeight: open ? `${contentRef.current?.scrollHeight}px` : '0px',
+        }}
+      >
+        <div className="mt-4 text-gray-600 leading-relaxed">
+          {isHtml ? (
+            <div dangerouslySetInnerHTML={{ __html: answer }} />
+          ) : (
+            answer
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Faq = () => {
   useEffect(() => {
@@ -11,8 +59,7 @@ const Faq = () => {
     <section id="faq">
       <div className="bg-gray-50 flex items-center justify-center px-6 py-20">
         <div className="max-w-3xl w-full">
-
-          {/* Section Heading */}
+          {/* Heading */}
           <h2
             className="text-4xl font-bold text-center bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent"
             data-aos="fade-up"
@@ -29,54 +76,17 @@ const Faq = () => {
             Frequently Asked Questions
           </p>
 
-          {/* FAQ Items */}
+          {/* Accordion Items */}
           <div className="space-y-4">
-
-            {/* Q1 */}
-            <details
-              className="group bg-white/30 backdrop-blur-md border border-white/40 rounded-2xl shadow-sm p-6 cursor-pointer hover:bg-white/50 transition"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <summary className="flex justify-between items-center font-semibold text-gray-800 text-lg select-none">
-                <span>Are these classes 100% online?</span>
-                <span className="ml-2 transition-transform group-open:rotate-180 text-brandColorTwo">▼</span>
-              </summary>
-              <p className="mt-4 text-gray-600 leading-relaxed">
-                Yes—Zoom Live, App Live, or Recorded videos. Pick what suits you.
-              </p>
-            </details>
-
-            {/* Q2 */}
-            <details
-              className="group bg-white/30 backdrop-blur-md border border-white/40 rounded-2xl shadow-sm p-6 cursor-pointer hover:bg-white/50 transition"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <summary className="flex justify-between items-center font-semibold text-gray-800 text-lg select-none">
-                <span>Do all plans include recordings, tests & DPP?</span>
-                <span className="ml-2 transition-transform group-open:rotate-180 text-brandColorTwo">▼</span>
-              </summary>
-              <p className="mt-4 text-gray-600 leading-relaxed">
-                Yes. Every plan includes recordings, weekly tests, and DPP. Access duration depends on the plan/platform policy.
-              </p>
-            </details>
-
-            {/* Q3 */}
-            <details
-              className="group bg-white/30 backdrop-blur-md border border-white/40 rounded-2xl shadow-sm p-6 cursor-pointer hover:bg-white/50 transition"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <summary className="flex justify-between items-center font-semibold text-gray-800 text-lg select-none">
-                <span>How do I get started?</span>
-                <span className="ml-2 transition-transform group-open:rotate-180 text-brandColorTwo">▼</span>
-              </summary>
-              <p className="mt-4 text-gray-600 leading-relaxed">
-                Tap any <span className="font-medium text-gray-800">Enroll</span> or <span className="font-medium text-gray-800">Join Now</span> button and we’ll help you on WhatsApp instantly.
-              </p>
-            </details>
-
+            {faqs.map((item, index) => (
+              <AccordionItem
+                key={index}
+                question={item.question}
+                answer={item.answer}
+                isHtml={item.isHtml}
+                delay={200 + index * 100}
+              />
+            ))}
           </div>
         </div>
       </div>

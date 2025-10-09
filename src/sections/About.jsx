@@ -8,7 +8,6 @@ const About = () => {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
-  // Card data for cleaner mapping
   
   return (
     <section id="about" className="relative py-20 px-6 bg-white">
