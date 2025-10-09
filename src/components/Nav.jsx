@@ -10,7 +10,7 @@ const Nav = () => {
           Lenka Academy
         </button>
 
-        {/* Desktop Nav Links - show on md and up */}
+        {/* Desktop Nav Links */}
         <ul className="hidden md:flex justify-center space-x-8">
           <li>
             <a
@@ -54,15 +54,17 @@ const Nav = () => {
           </li>
         </ul>
 
-        {/* Desktop Join Button - show on md and up */}
+        {/* Desktop WhatsApp Join Now */}
         <a
-          href="#contact"
+          href="https://wa.me/916303616940"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-block rounded-full border-2 text-[#f837c4] border-[#f837c4] px-6 py-2 text-sm font-medium hover:bg-[#f837c4] hover:text-white"
         >
           Join Now
         </a>
 
-        {/* Hamburger Button - show only below md */}
+        {/* Mobile Hamburger Button */}
         <button
           onClick={() => setSidebarOpen(true)}
           className="flex flex-col gap-1.5 md:hidden focus:outline-none z-30"
@@ -74,7 +76,7 @@ const Nav = () => {
         </button>
       </nav>
 
-      {/* Sidebar Overlay */}
+      {/* Overlay */}
       {sidebarOpen && (
         <div
           onClick={() => setSidebarOpen(false)}
@@ -82,7 +84,7 @@ const Nav = () => {
         ></div>
       )}
 
-      {/* Sidebar - only on mobile */}
+      {/* Mobile Sidebar */}
       <aside
         className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-30 transform transition-transform duration-300 md:hidden ${
           sidebarOpen ? "translate-x-0" : "translate-x-full"
@@ -119,8 +121,11 @@ const Nav = () => {
             </a>
           ))}
 
+          {/* Mobile WhatsApp Join Now */}
           <a
-            href="#contact"
+            href="https://wa.me/916303616940"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-6 inline-block text-center rounded-full border-2 border-[#f837c4] text-[#f837c4] py-2 font-semibold hover:bg-[#f837c4] hover:text-white transition-colors"
             onClick={() => setSidebarOpen(false)}
           >

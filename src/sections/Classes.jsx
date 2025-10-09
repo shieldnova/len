@@ -42,15 +42,15 @@ const Classes = () => {
             </h3>
             <p className="text-gray-600 mb-6">class 11 & 12</p>
             <div className="flex flex-col space-y-3">
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716066" target="_blank" className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 transition">
                 <img src={icon1} className="w-5 h-5" alt="Zoom Icon" />
                 Zoom Live
               </a>
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-[#3DDC84] text-white font-semibold py-2 rounded-lg hover:bg-pink-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716050" target="_blank" className="flex items-center justify-center gap-2 bg-[#3DDC84] text-white font-semibold py-2 rounded-lg hover:bg-pink-600 transition">
                 <img src={icon3} className="w-5 h-5" alt="App Icon" />
                 App Live
               </a>
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-[#FF0000] text-white font-semibold py-2 rounded-lg hover:bg-red-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716074" target="_blank" className="flex items-center justify-center gap-2 bg-[#FF0000] text-white font-semibold py-2 rounded-lg hover:bg-red-600 transition">
                 <img src={icon2} className="w-5 h-5" alt="Record Icon" />
                 Recordings
               </a>
@@ -68,15 +68,15 @@ const Classes = () => {
             </h3>
             <p className="text-gray-600 mb-6">class-10</p>
             <div className="flex flex-col space-y-3">
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716066" target="_blank" className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 transition">
                 <img src={icon1} className="w-5 h-5" alt="Zoom Icon" />
                 Zoom Live
               </a>
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-[#3DDC84] text-white font-semibold py-2 rounded-lg hover:bg-pink-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716050" target="_blank" className="flex items-center justify-center gap-2 bg-[#3DDC84] text-white font-semibold py-2 rounded-lg hover:bg-pink-600 transition">
                 <img src={icon3} className="w-5 h-5" alt="App Icon" />
                 App Live
               </a>
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-[#FF0000] text-white font-semibold py-2 rounded-lg hover:bg-red-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716074" target="_blank" className="flex items-center justify-center gap-2 bg-[#FF0000] text-white font-semibold py-2 rounded-lg hover:bg-red-600 transition">
                 <img src={icon2} className="w-5 h-5" alt="Record Icon" />
                 Recordings
               </a>
@@ -94,15 +94,15 @@ const Classes = () => {
             </h3>
             <p className="text-gray-600 mb-6">class 9</p>
             <div className="flex flex-col space-y-3">
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716066" target="_blank" className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 transition">
                 <img src={icon1} className="w-5 h-5" alt="Zoom Icon" />
                 Zoom Live
               </a>
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-[#3DDC84] text-white font-semibold py-2 rounded-lg hover:bg-pink-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716050" target="_blank" className="flex items-center justify-center gap-2 bg-[#3DDC84] text-white font-semibold py-2 rounded-lg hover:bg-pink-600 transition">
                 <img src={icon3} className="w-5 h-5" alt="App Icon" />
                 App Live
               </a>
-              <a href="#" target="_blank" className="flex items-center justify-center gap-2 bg-[#FF0000] text-white font-semibold py-2 rounded-lg hover:bg-red-600 transition">
+              <a href="https://live.lenkaacademy.com/courses/716074" target="_blank" className="flex items-center justify-center gap-2 bg-[#FF0000] text-white font-semibold py-2 rounded-lg hover:bg-red-600 transition">
                 <img src={icon2} className="w-5 h-5" alt="Record Icon" />
                 Recordings
               </a>

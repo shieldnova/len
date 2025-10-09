@@ -45,7 +45,7 @@ const Pricing = () => {
               <p className="mt-2 text-gray-500">
                 Be there, ask live, learn fast
               </p>
-              <button className="mt-6 w-full rounded-full border border-gray-300 px-6 py-3 text-gray-700 font-medium shadow-sm hover:bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree hover:text-white">
+              <button onClick={() => (window.location.href = "https://live.lenkaacademy.com/courses/716066")} className="mt-6 w-full rounded-full border border-gray-300 px-6 py-3 text-gray-700 font-medium shadow-sm hover:bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree hover:text-white">
                 Enroll
               </button>
             </div>
@@ -92,7 +92,7 @@ const Pricing = () => {
               <p className="mt-2 text-gray-500">
                 Learn live inside the Lenka app.
               </p>
-              <button className="mt-6 w-full rounded-full border border-gray-300 px-6 py-3 text-gray-700 font-medium shadow-sm hover:bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree hover:text-white">
+              <button onClick={() => (window.location.href = "https://live.lenkaacademy.com/courses/716050")}  className="mt-6 w-full rounded-full border border-gray-300 px-6 py-3 text-gray-700 font-medium shadow-sm hover:bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree hover:text-white">
                 Enroll
               </button>
             </div>
@@ -136,7 +136,7 @@ const Pricing = () => {
               <p className="mt-2 text-gray-500">
                 Perfect for revision & fast catch-up
               </p>
-              <button className="mt-6 w-full rounded-full border border-gray-300 px-6 py-3 text-gray-700 font-medium shadow-sm hover:bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree hover:text-white">
+              <button onClick={() => (window.location.href = "https://live.lenkaacademy.com/courses/716074")}  className="mt-6 w-full rounded-full border border-gray-300 px-6 py-3 text-gray-700 font-medium shadow-sm hover:bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree hover:text-white">
                 Enroll
               </button>
             </div>

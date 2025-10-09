@@ -1,11 +1,13 @@
-import React from 'react'
-import { whatsapp } from '../assets/icons'
+import React from 'react';
+import { whatsapp } from '../assets/icons';
+import { sn } from '../assets/images';
+
 
 const Footer = () => {
   return (
     <footer id="footer" className="bg-white border-t border-gray-200 backdrop-blur-sm py-10 px-6">
       <div className="max-w-5xl mx-auto text-center space-y-6">
-        
+
         {/* Brand Name */}
         <h2 className="text-3xl font-extrabold bg-gradient-to-r from-brandColorOne via-brandColorTwo to-brandColorThree bg-clip-text text-transparent">
           Lenka Academy
@@ -30,7 +32,6 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-transform hover:scale-105"
           >
-            {/* Icon */}
             <img
               src={whatsapp}
               alt="WhatsApp Icon"
@@ -42,9 +43,20 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-gray-500 text-sm pt-4">© 2025 Lenka Academy</p>
+
+        {/* Developed by ShieldNova */}
+        <div className="flex items-center justify-center gap-2 pt-2 text-gray-400 text-sm">
+          <span>Developed by Team</span>
+          <img
+            src={sn}// Demo logo
+            alt="ShieldNova Logo"
+            className="w-5 h-7 rounded-full"
+          />
+          <span className="font-semibold text-gray-600">ShieldNova</span>
+        </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
