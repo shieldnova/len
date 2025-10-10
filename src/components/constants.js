@@ -249,7 +249,7 @@ export const testimonials = [
     role: "Class 10 Student",
     feedback:
       "The review will appear here, highlighting the student's or parent's experience with our program.",
-    avatar: "https://i.pravatar.cc/100?img=12",
+    avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg", // Indian male student
     rating: 5,
   },
   {
@@ -257,7 +257,7 @@ export const testimonials = [
     role: "Parent of Class 11 Student",
     feedback:
       "The review will appear here, highlighting the student's or parent's experience with our program.",
-    avatar: "https://i.pravatar.cc/100?img=31",
+    avatar: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg", // Indian parent
     rating: 4,
   },
   {
@@ -265,7 +265,8 @@ export const testimonials = [
     role: "JEE Dropper",
     feedback:
       "The review will appear here, highlighting the student's or parent's experience with our program.",
-    avatar: "https://i.pravatar.cc/100?img=25",
+    avatar: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg", // Indian young adult
     rating: 5,
   },
 ];
+
