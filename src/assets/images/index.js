@@ -1,4 +1,3 @@
-import waves from './wave.svg';
 import nit from './Nit.png';
 import concept from './concept.png';
 import edutainment from './edutainment.png';
@@ -9,5 +8,5 @@ import akash from './Akash.png';
 import sn from './Logo_of_Shield_Nova.png';
 import viral from './viral.png';
 export{
-    waves,nit,concept,edutainment,lenka,stat,lenkacard,akash,sn,viral
+    nit,concept,edutainment,lenka,stat,lenkacard,akash,sn,viral
 }
