@@ -7,7 +7,7 @@ const FloatingTopicNavigator = () => {
     const hero = document.getElementById("hero");
     const footer = document.getElementById("footer");
 
-    if (!hero || !footer) return;
+    if (!footer) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -21,8 +21,6 @@ const FloatingTopicNavigator = () => {
         threshold: 0.1,
       }
     );
-
-    observer.observe(hero);
     observer.observe(footer);
 
     return () => {
