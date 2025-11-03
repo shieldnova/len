@@ -36,6 +36,14 @@ const Nav = () => {
               Schedules
             </a>
           </li>
+             <li>
+            <a
+              href="https://lenkaacademy.com/j6.html"
+              className="text-[var(--color-text)] py-1 font-medium hover:rounded-full hover:border-2 hover:border-[#F837C4] hover:px-3"
+            >
+              Jee Topics
+            </a>
+          </li>
           <li>
             <a
               href="#contact"
@@ -44,6 +52,7 @@ const Nav = () => {
               Contact
             </a>
           </li>
+          
           <li>
             <a
               href="#faq"
@@ -120,6 +129,13 @@ const Nav = () => {
               {item.label}
             </a>
           ))}
+           <a
+              href="https://lenkaacademy.com/j6.html"
+              className="text-gray-700 font-medium hover:text-[#f837c4] transition-colors"
+              onClick={() => setSidebarOpen(false)}
+            >
+              Jee Topics
+            </a>
 
           {/* Mobile WhatsApp Join Now */}
           <a
