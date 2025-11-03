@@ -130,7 +130,7 @@ const Nav = () => {
             </a>
           ))}
            <a
-              href="https://lenkaacademy.com/j6.html"
+              href="https://lenkaacademy.com/jee1.htm"
               className="text-gray-700 font-medium hover:text-[#f837c4] transition-colors"
               onClick={() => setSidebarOpen(false)}
             >

@@ -32,7 +32,7 @@ const FloatingTopicNavigator = () => {
 
   return (
     <a
-      href="https://lenkaacademy.com/j6.html"
+      href="https://lenkaacademy.com/jee1.html"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="JEE Topic Navigator"
