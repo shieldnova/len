@@ -38,7 +38,7 @@ const Nav = () => {
           </li>
              <li>
             <a
-              href="https://lenkaacademy.com/j6.html"
+              href="https://lenkaacademy.com/jee1.html"
               className="text-[var(--color-text)] py-1 font-medium hover:rounded-full hover:border-2 hover:border-[#F837C4] hover:px-3"
             >
               Jee Topics
@@ -130,7 +130,7 @@ const Nav = () => {
             </a>
           ))}
            <a
-              href="https://lenkaacademy.com/jee1.htm"
+              href="https://lenkaacademy.com/jee1.html"
               className="text-gray-700 font-medium hover:text-[#f837c4] transition-colors"
               onClick={() => setSidebarOpen(false)}
             >
